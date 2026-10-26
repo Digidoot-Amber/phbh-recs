@@ -1,0 +1,102 @@
+[
+  {
+    "id": "taqueria-el-pastorcito",
+    "name": "Taquería El Pastorcito",
+    "service": "Restaurants",
+    "category": "Tacos",
+    "area": "Roma Norte",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Taqueria+El+Pastorcito+Roma+Norte+CDMX",
+    "thread": [
+      {
+        "who": "Amber",
+        "said": "Best al pastor in the city, hands down. The trompo is the real thing.",
+        "date": "2025-03-14"
+      },
+      {
+        "who": "Jen",
+        "said": "Go after 10pm when the line dies down. Ask for the volcán.",
+        "date": "2025-03-16"
+      },
+      {
+        "who": "Sofia",
+        "said": "Cash only, bring small bills. They never have change for 500.",
+        "date": "2025-08-02"
+      }
+    ]
+  },
+  {
+    "id": "estudio-lupe",
+    "name": "Estudio Lupe",
+    "service": "Beauty",
+    "category": "Hair",
+    "area": "Condesa",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Estudio+Lupe+Condesa+CDMX",
+    "thread": [
+      {
+        "who": "Sofia",
+        "said": "Lupe is the only person I trust with curly hair in CDMX. Book two weeks out.",
+        "date": "2024-11-20"
+      },
+      {
+        "who": "Amber",
+        "said": "Seconding this. She speaks English if that matters to anyone.",
+        "date": "2025-01-09"
+      }
+    ]
+  },
+  {
+    "id": "dra-robles-dental",
+    "name": "Dra. Robles — Dental",
+    "service": "Health",
+    "category": "Dentist",
+    "area": "Polanco",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Dentista+Polanco+CDMX",
+    "thread": [
+      {
+        "who": "Marco",
+        "said": "Did my root canal for a fraction of what it cost back home. Very gentle.",
+        "date": "2025-06-30"
+      },
+      {
+        "who": "Jen",
+        "said": "Confirmed, went on Marco's rec. She does payment plans if you ask.",
+        "date": "2026-02-11"
+      }
+    ]
+  },
+  {
+    "id": "foro-cielo-abierto",
+    "name": "Foro Cielo Abierto",
+    "service": "Events",
+    "category": "Live Music",
+    "area": "Juárez",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=foro+musica+en+vivo+Juarez+CDMX",
+    "thread": [
+      {
+        "who": "Marco",
+        "said": "Rooftop shows on Fridays. Small enough that you can actually hear people talk.",
+        "date": "2026-04-18"
+      }
+    ]
+  },
+  {
+    "id": "contadora-ines",
+    "name": "Inés — Accountant",
+    "service": "Business",
+    "category": "Accounting",
+    "area": "Remote",
+    "mapsUrl": "",
+    "thread": [
+      {
+        "who": "Amber",
+        "said": "Handles RFC registration and monthly filings for freelancers. Explains things properly.",
+        "date": "2025-09-05"
+      },
+      {
+        "who": "Sofia",
+        "said": "She sorted out two years of back taxes for me without making me feel stupid.",
+        "date": "2026-01-22"
+      }
+    ]
+  }
+]

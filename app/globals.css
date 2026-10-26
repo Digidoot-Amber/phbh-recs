@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #141033;
+  --color-ink-soft: #4b5578;
+  --color-rose: #d9536f;
+  --color-rose-deep: #bf4360;
+  --color-dot: #dfe2ea;
+  --color-hairline: #e8eaf0;
+  --font-display: var(--font-poppins);
+}
+
+html,
+body {
+  background: #ffffff;
+  color: var(--color-ink);
+}
+
+body {
+  font-family: var(--font-poppins), ui-sans-serif, system-ui, sans-serif;
+}
+
+/* The faint dotted paper the directory sits on. */
+.dot-grid {
+  background-color: #ffffff;
+  background-image: radial-gradient(
+    circle,
+    var(--color-dot) 1.1px,
+    transparent 1.1px
+  );
+  background-size: 22px 22px;
+  background-position: -11px -11px;
+}
+
+/* Thread bubbles animate open rather than snapping. */
+@keyframes thread-open {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.thread-open {
+  animation: thread-open 160ms ease-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .thread-open {
+    animation: none;
+  }
+}

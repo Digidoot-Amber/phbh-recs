@@ -1,0 +1,5 @@
+# This directory is for the group, not for search engines.
+# The pages also carry noindex metadata — see app/layout.tsx.
+
+User-agent: *
+Disallow: /
